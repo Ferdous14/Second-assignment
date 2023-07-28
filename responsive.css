@@ -1,5 +1,8 @@
 @media screen and (min-width: 427px) and (max-width: 768px) {
-  
+    .online-game-container{
+        flex-wrap: wrap;
+        width: 100%;
+    }
     
 
 
@@ -45,4 +48,19 @@
         margin: 30px auto;
         text-align: center;
     }
+    .online-game-title-container{
+        flex-direction: column;
+    }
+    #online-game-title{
+        font-size: 30px;
+    }
+    #online-game-title span{
+        font-size: 30px;
+    }
+    .online-game-container{
+        flex-direction: column;
+        width: 100%;
+    }
+
+
 }
