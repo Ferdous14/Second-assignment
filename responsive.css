@@ -1,21 +1,7 @@
-@media screen and(min-width: 426px), (max-width:769px) {
- 
-    .nav-container{
-        justify-content: center;
-        align-items: center;
-    }
-    .logo-container{
-        display: flex;
-        justify-content: center;
-        margin: o auto;
-    }
-    .logo-container img{
-        margin-left: 100px;
-    }
-    .nav-items-container{
-        padding-right: 10px;
-        width: 100%;
-    }
+@media screen and (min-width: 427px) and (max-width: 768px) {
+  
+    
+
 
 
 }
@@ -32,26 +18,18 @@
 
 
 
-/* mobile device starts here */
-@media screen and (max-width:426px) {
-   
-    
-    .nav-container {
-        flex-direction: column;
-    }
-    .logo-container img, .logo-container p, .nav-items-container {
-        padding: 0;
-        margin: 0;
 
+@media screen and (max-width: 426px) {
+    .nav-container{
+        flex-direction: column;
     }
     .nav-items-container{
         flex-direction: column;
-        gap: 30px;
+        justify-content: center;
+        align-items: center;
     }
     .logo-container{
-        margin: 60px;
+        justify-content: center;
+        align-items: center;
     }
-    
-
-
 }

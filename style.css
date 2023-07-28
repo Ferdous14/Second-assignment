@@ -9,23 +9,25 @@ body {
 }
 
 .nav-container {
+    max-width: 1440px;
+    margin: 0 auto;
     display: flex;
     align-items: center;
-
 }
 
 .logo-container {
     width: 50%;
     display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .logo-container img {
-    object-fit: contain;
-    padding-left: 180px;
+    width: 80px;
+    height: 55px;
 }
 
 .logo-container p {
-    margin-left: 20px;
     font-size: 45px;
     font-weight: 700;
     color: #0B0223;
@@ -33,6 +35,7 @@ body {
 
 .logo-container span {
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -40,20 +43,59 @@ body {
 .nav-items-container {
     width: 50%;
     display: flex;
-    align-items: center;
     gap: 30px;
-    margin-left: 200px;
+    align-items: center;
+    justify-content: flex-end;
 }
-.nav-items-container a{
+
+.nav-items-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     color: #3C354F;
-    font-size: 18px;
-font-weight: 500;
+    font-size: 15px;
+    font-weight: 500;
 }
-.follow-btn{
-   
-    padding: 17px 110px 17px 22px;
+
+.follow-btn {
+    width: 262px;
+    height: 56px;
     border-radius: 8px;
-background: rgba(11, 2, 35, 0.10);
-width: 250px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+.follow-btn {
+    text-decoration: none;
+}
+
+.follow-btn .fa-youtube {
+    font-size: 24px;
+    margin: 5px;
+    color: #FF0000;
+    
+}
+
+.follow-btn .fa-tiktok {
+    font-size: 24px;
+    color: rgba(8, 255, 249, 1), rgba(240, 0, 68, 1), rgba(0, 0, 0, 1);
+    margin-left: 10px;
+}
+
+
+/* banner style starts here */
+.banner-container{
+    border: 1px solid blue;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.banner-text{
+    border: 1px solid red;
+    width: 50%;
+    min-height: 50px;
+}
+.banner-img{
+    border: 1px solid green;
+    width: 50%;
+    min-height: 50px;
 }
