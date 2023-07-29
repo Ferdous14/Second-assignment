@@ -15,13 +15,36 @@
     .main-section-second-img{
         right: 60px;
     }
-    
+    .game-types-section{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-description {
+        
+        gap: 30px;
+        
+    }
+    .game-type1 {
+        
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+
+
+
+
+  }
     
     
 
 
 
-}
+
 
 
 
@@ -93,7 +116,25 @@
         width: 45%;
         height: 45%;
     }
-
+    .game-type1 {
+        
+        flex-direction: column;
+    }
+    .game-type2 {
+        
+        flex-direction: column;
+    }
+    .game-types-section {
+        margin: 0 auto;
+        height: 100%; 
+    }
+    .footer-description{
+        flex-wrap: wrap;
+    }
+    .terms-container{
+        flex-wrap: wrap;
+    }
+    
 
 
 }
