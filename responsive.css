@@ -3,6 +3,20 @@
         flex-wrap: wrap;
         width: 100%;
     }
+    .main-section-container{
+        flex-direction: column;
+    }
+    .main-section-text{
+        margin-bottom: 50px;
+    }
+    .main-section-img{
+        width: 70%;
+    }
+    .main-section-second-img{
+        right: 60px;
+    }
+    
+    
     
 
 
@@ -61,6 +75,25 @@
         flex-direction: column;
         width: 100%;
     }
+    .main-section-container{
+        flex-direction: column;
+    }
+    .main-section-text{
+        width: 100%;
+        margin-bottom: 70px;
+    }
+    .main-section-img{
+        width: 80%;
+    }
+    .main-section-second-img{
+        right: 40px;
+        bottom: 90px;
+    }
+    .main-section-second-img img{
+        width: 45%;
+        height: 45%;
+    }
+
 
 
 }
